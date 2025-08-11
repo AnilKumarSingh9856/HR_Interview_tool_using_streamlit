@@ -5,56 +5,92 @@
 [![License](https://img.shields.io/github/license/your-username/ai-interview-coach?style=flat&color=blue)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-An interactive, AI-powered interview simulator built with **Streamlit** and the high-speed **Groq API**.  
-This tool helps users practice behavioral interviews, customize interview scenarios, and receive instant, actionable feedback.
+This Streamlit application provides a platform for users to practice behavioral interviews with an AI-powered interviewer. The AI, powered by the Groq API and Llama 3, tailors the interview to a user-specified role, level, and company, and provides detailed feedback upon completion.
 
----
+## 🎬 Demo
 
-## 📑 Table of Contents
-- [✨ Features](#-features)
-- [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
-- [📚 How to Use](#-how-to-use)
-- [🚀 Getting Started](#-getting-started)
-- [🌟 Sample Output](#-sample-output-feedback-section)
-- [📸 Demo](#-demo)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+![AI Interview Coach Demo](./docs/demo.gif) <!-- You will need to create this GIF and place it in a 'docs' folder -->
 
 ---
 
 ## ✨ Features
 
-- 🚀 **Blazing-Fast Responses** – Powered by the **Groq LPU™ Inference Engine** for seamless, real-time conversation.
-- 🛠️ **Customizable Scenarios** – Set your name, experience, skills, target role, and company.
-- 📊 **Adjustable Difficulty** – Choose between *Easy*, *Medium*, and *Difficult* levels to suit your preparation.
-- 🗣️ **Behavioral Focus** – AI acts as an HR executive, asking non-technical questions to evaluate soft skills.
-- 📈 **Instant Performance Feedback** – After a 5-question interview, get a detailed review and an overall score out of 10.
-- 🎨 **Modern & Intuitive UI** – Clean, visually appealing interface built with **Streamlit**.
+- **Customizable Interview Setup**: Enter your name, experience, and skills to personalize the interview.
+- **Targeted Role-Playing**: Select the job level, position, and company you want to interview for.
+- **Real-time AI Interaction**: Engage in a 5-question behavioral interview with a fast, responsive AI.
+- **Performance Feedback**: Receive an overall score (1-10) and constructive feedback on your answers.
+- **Clean, Intuitive UI**: A simple, multi-stage interface built with Streamlit.
 
----
+## 🛠️ Tech Stack
 
-## 🛠️ Technologies Used
-
-- **Python** 3.9+
-- **Framework**: Streamlit
-- **LLM API**: Groq (for high-speed inference)
-- **Model**: Llama3-8b-8192
-
----
-
-## 📚 How to Use
-
-1. **Fill in Your Details** – Enter your personal info, target role, and desired difficulty.
-2. **Start the Interview** – Click **Start Interview**; the AI will begin asking questions.
-3. **Answer the Questions** – Type your responses into the chat input.
-4. **Get Feedback** – After all 5 questions, click **Get Feedback** for an evaluation.
-5. **Restart** – Start over with the same or updated details.
+- **Framework**: [Streamlit](https://streamlit.io/)
+- **LLM API**: [Groq](https://groq.com/)
+- **Language**: Python
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/ai-interview-coach.git
-cd ai-interview-coach
+Follow these instructions to set up and run the project on your local machine.
+
+### Prerequisites
+
+- Python 3.8+
+- A Groq API Key. You can get one for free from the [Groq Console](https://console.groq.com/keys).
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/ai-interview-coach.git
+    cd ai-interview-coach
+    ```
+
+2.  **Create and activate a virtual environment:**
+    This keeps your project dependencies isolated.
+    ```bash
+    # For macOS/Linux
+    python3 -m venv .venv
+    source .venv/bin/activate
+
+    # For Windows
+    python -m venv .venv
+    .venv\Scripts\activate
+    ```
+
+3.  **Install the required packages:**
+    Create a file named `requirements.txt` in the root of your project with the following content:
+    ```txt
+    streamlit
+    groq
+    ```
+    Then, run the installation command:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Configure your API Key:**
+    The application uses Streamlit's built-in secrets management.
+
+    - Create a directory named `.streamlit` in your project's root folder.
+    - Inside `.streamlit`, create a file named `secrets.toml`.
+    - Add your Groq API key to this file as shown below:
+
+    ```toml
+    # .streamlit/secrets.toml
+    GROQ_API_KEY = "gsk_YourGroqApiKeyHere"
+    ```
+    Your `.gitignore` file is already correctly configured to prevent this file from being committed to Git.
+
+---
+
+## 🏃‍♀️ Usage
+
+1.  **Run the Streamlit application from your terminal:**
+    ```bash
+    streamlit run app1.py
+    ```
+2.  Your browser will open with the application running.
+3.  Fill in the setup form with your details and the desired role.
+4.  Click "Start Interview" to begin the conversation.
+5.  After answering all 5 questions, click "Get Feedback" to see your performance review.
