@@ -1,23 +1,34 @@
 # 🤖 AI Interview Coach
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/ai-interview-coach?style=flat&color=yellow)](https://github.com/your-username/ai-interview-coach/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/ai-interview-coach?style=flat&color=orange)](https://github.com/your-username/ai-interview-coach/network)
-[![License](https://img.shields.io/github/license/your-username/ai-interview-coach?style=flat&color=blue)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/AnilKumarSingh9856/HR_Interview_tool_using_streamlit?style=flat&color=yellow)](https://github.com/AnilKumarSingh9856/HR_Interview_tool_using_streamlit/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/AnilKumarSingh9856/HR_Interview_tool_using_streamlit?style=flat&color=orange)](https://github.com/AnilKumarSingh9856/HR_Interview_tool_using_streamlit/network)
+[![License](https://img.shields.io/github/license/AnilKumarSingh9856/HR_Interview_tool_using_streamlit?style=flat&color=blue)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 This Streamlit application provides a platform for users to practice behavioral interviews with an AI-powered interviewer. The AI, powered by the Groq API and Llama 3, tailors the interview to a user-specified role, level, and company, and provides detailed feedback upon completion.
 
-## Working link of my project
+## 🚀 Live Demo
 <a href="https://hrinterviewtool.streamlit.app/" target="_blank">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Live-Demo-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dstreamlit" alt="Live Demo"/>
+<img src="https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen?style=for-the-badge&logo=streamlit" alt="Live Demo"/>
 </a>
 
-## 📸 Demo
-![Screenshot 1](/home/anilkumarsingh/Chatbot_Prototype/images/01_image.png)
-![Screenshot 2](/home/anilkumarsingh/Chatbot_Prototype/images/02_image.png)
-![Screenshot 3](/home/anilkumarsingh/Chatbot_Prototype/images/03_image.png)
-![Screenshot 4](/home/anilkumarsingh/Chatbot_Prototype/images/04_image.png)
-![Screenshot 5](/home/anilkumarsingh/Chatbot_Prototype/images/05_image.png)
+## 📸 Screenshots
+
+<details>
+<summary>Click to view application screenshots</summary>
+
+*Setup Page*
+![Screenshot 1](images/01_image.png)
+*Interview in Progress*
+![Screenshot 2](images/02_image.png)
+*Interview Question*
+![Screenshot 3](images/03_image.png)
+*Interview Complete*
+![Screenshot 4](images/04_image.png)
+*Feedback View*
+![Screenshot 5](images/05_image.png)
+
+</details>
 
 ---
 
@@ -50,8 +61,8 @@ Follow these instructions to set up and run the project on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ai-interview-coach.git
-    cd ai-interview-coach
+    git clone https://github.com/AnilKumarSingh9856/HR_Interview_tool_using_streamlit.git
+    cd HR_Interview_tool_using_streamlit
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -82,7 +93,6 @@ Follow these instructions to set up and run the project on your local machine.
     # .streamlit/secrets.toml
     GROQ_API_KEY = "gsk_YourGroqApiKeyHere"
     ```
-    Your `.gitignore` file is already correctly configured to prevent this file from being committed to Git.
 
 ---
 
