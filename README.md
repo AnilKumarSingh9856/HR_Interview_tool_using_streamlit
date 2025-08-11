@@ -7,9 +7,11 @@
 
 This Streamlit application provides a platform for users to practice behavioral interviews with an AI-powered interviewer. The AI, powered by the Groq API and Llama 3, tailors the interview to a user-specified role, level, and company, and provides detailed feedback upon completion.
 
-## 🎬 Demo
-
-![AI Interview Coach Demo](./docs/demo.gif) <!-- You will need to create this GIF and place it in a 'docs' folder -->
+## 📸 Demo
+![Screenshot 1](assets/screenshot1.png)
+![Screenshot 2](assets/screenshot2.png)
+![Screenshot 3](assets/screenshot3.png)
+![Screenshot 4](assets/screenshot4.png)
 
 ---
 
