@@ -1,0 +1,11 @@
+# Streamlit
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.env
+.chatbot_env/
+
+# IDE - VSCode
+.vscode/
