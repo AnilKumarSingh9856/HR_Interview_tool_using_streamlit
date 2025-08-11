@@ -7,6 +7,10 @@
 
 This Streamlit application provides a platform for users to practice behavioral interviews with an AI-powered interviewer. The AI, powered by the Groq API and Llama 3, tailors the interview to a user-specified role, level, and company, and provides detailed feedback upon completion.
 
+## Working link of my project
+<a href="https://hrinterviewtool.streamlit.app/" target="_blank">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Live-Demo-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dstreamlit" alt="Live Demo"/>
+</a>
 ## 📸 Demo
 ![Screenshot 1](<img width="1041" height="938" alt="image" src="https://github.com/user-attachments/assets/8715281d-0a65-40a9-a059-92be5d0affb2" />
 )
