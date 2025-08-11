@@ -11,15 +11,12 @@ This Streamlit application provides a platform for users to practice behavioral 
 <a href="https://hrinterviewtool.streamlit.app/" target="_blank">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Live-Demo-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dstreamlit" alt="Live Demo"/>
 </a>
+
 ## 📸 Demo
-![Screenshot 1](<img width="1041" height="938" alt="image" src="https://github.com/user-attachments/assets/8715281d-0a65-40a9-a059-92be5d0affb2" />
-)
-![Screenshot 2](<img width="1013" height="875" alt="image" src="https://github.com/user-attachments/assets/2a34f829-981b-4436-873c-8aa383a41c08" />
-)
-![Screenshot 3](<img width="1012" height="655" alt="image" src="https://github.com/user-attachments/assets/6ea41bc4-f38a-4121-9b40-ad3c51dc3b6b" />
-)
-![Screenshot 4](<img width="1000" height="965" alt="image" src="https://github.com/user-attachments/assets/cf2c45eb-aed4-4e7e-bd67-9154fa8f00da" />
-)
+![Screenshot 1](<img width="1041" height="938" alt="image" src="https://github.com/user-attachments/assets/8715281d-0a65-40a9-a059-92be5d0affb2" />)
+![Screenshot 2](<img width="1013" height="875" alt="image" src="https://github.com/user-attachments/assets/2a34f829-981b-4436-873c-8aa383a41c08" />)
+![Screenshot 3](<img width="1012" height="655" alt="image" src="https://github.com/user-attachments/assets/6ea41bc4-f38a-4121-9b40-ad3c51dc3b6b" />)
+![Screenshot 4](<img width="1000" height="965" alt="image" src="https://github.com/user-attachments/assets/cf2c45eb-aed4-4e7e-bd67-9154fa8f00da" />)
 
 ---
 
